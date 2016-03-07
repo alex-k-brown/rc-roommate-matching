@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roommate Matching</title>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/roommate-style.css">
+<link rel="icon" 
+      type="image/ico" 
+      href="../images/favicon.ico">
+</head>
+<body>
+<div id="roommate-matching">
+	<div class='header'>
+		<div class="header-text">
+			<h1>Roommate Matching</h1>
+			<h2>RoomChoice makes roommate matching easy as 1-2-3.</h2>
+		</div><!--header-text-->
+		<img src="img/Student-Roommate-Matching.png" alt="Roommate Matching on a Laptop">
+	</div><!--header-->
+	<ul class="text-and-image">
+		<li>
+			<h3>1. Understand</h3>
+			<p>Applicants answer basic questions about their lifestyle, personality traits, and behavioral habits.</p>
+		</li>
+		<li>
+			<h3>2. Match</h3>
+			<p>RoomChoice compares their answers to other applicants' to find compatible roommate options.</p>
+		</li>
+		<li>
+			<h3>3. Approve</h3>
+			<p>Managers have the option to either approve or deny the match.</p>
+		</li>
+		<li>
+			<h2 class="h2-bottom">Sign up to receive a demo.</h2>
+		</li>
+	</ul>
+	<form id="contactForm" method="post" action="https://roomchoice.insidesales.com/do=noauth/add_lead/4" name="editPage" onsubmit="return validate(fieldArray, this);">
+					<input type="hidden" name="r_link" value="http://www.roomchoice.com/thank-you.html#footer">
+					<input type="hidden" name="email_template" value="22_$">
+					<input type="hidden" name="oi" value="1_##">
+					<input type="hidden" name="selected_campaign_id" value="!!!!!!!_!!">
+					<script language="JavaScript" src="https://roomchoice.insidesales.com/js/validate.js"></script>
+					<script language="JavaScript"><!--
+					// SET UP VALIDATION ARRAY
+					var fieldArray = new Array();
+					fieldArray[0] = "last_name|Last Name|blank"; // field|field name|blank,DDSEelected,phone,email
+					fieldArray[1] = "email|Email|email,blank";
+					fieldArray[2] = "first_name|First Name|blank";
+					fieldArray[3] = "phone|Phone|blank";
+					// -->
+					</script>
+					<div class="col-md-6 left">		
+						<input placeholder="First Name" name="first_name" type="text" maxlength="40" value="">
+					</div>
+					<div class="col-md-6 right">
+			 			<input placeholder="Last Name" type="text" name="last_name">
+			 		</div>
+			 		<div class="col-md-6 left">
+						<input placeholder="Email" type="text" name="email">
+					</div>
+					<div class="col-md-6 right">
+						<input placeholder="Phone Number" type="text" name="phone">
+					</div>
+					<div class="col-md-12" class="input-long">
+						<input placeholder="Company" type="text" name="account_name" required>
+					</div>
+					<div class="col-md-12">
+		               <input class="submit" type="submit" value="Submit " name="save">
+		            </div>
+				</form>
+
+	<img class="mobile-img" src="img/Student-Roommate-Matching.png" alt="Roommate Matching on a Laptop">
+</div><!--roommate-matching-->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script>
+	$('a').click(function(){
+    	$('html, body').animate({
+        	scrollTop: $( $(this).attr('href') ).offset().top
+    	}, 500);
+    	return false;
+	});
+</script>
+</body>
+</html>

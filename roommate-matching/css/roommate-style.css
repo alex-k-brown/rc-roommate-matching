@@ -1,0 +1,327 @@
+html {
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+#roommate-matching{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+}/*roommate-matching*/
+
+h3 {
+	color: #63b1e7;
+
+}
+
+h1 {
+	font-size: 3rem;
+	padding: 25px 0 10px;
+	margin: 0;
+	color: white;
+
+}
+
+.line {
+	border-bottom: 2px solid #a9a9a9;
+	width: 30%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h2 {
+	margin: 0;
+	padding: 25px 0 25px;
+	color: white;
+	font-size: 1.3rem;
+}
+
+.header {
+	background: #63b1e7;
+	text-align: left;
+	padding: 0 2%;
+}
+
+.header .header-text {
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.header img {
+	width: 30%;
+	display: inline-block;
+	float: right;
+	padding: 75px 0 0;
+}
+
+#roommate-matching .h2-bottom {
+	color: #63b1e7;
+
+}
+
+h3 {
+	font-size: 1.7rem;
+	margin: 10px 0 0;
+}
+
+.match-h3 {
+	padding: 40px 0 0;
+}
+
+p {
+	font-size: 1rem;
+	color: #a9a9a9;
+}
+
+.text-and-image-mobile {
+	display: none;
+}
+
+.text-and-image {
+	text-align: left;
+	margin: 0 0 40px;
+	padding: 0;
+	width: 40%;
+	padding: 50px 5%;
+	display: inline-block;
+	float: left;
+
+}
+
+.text-and-image li {
+	width: 100%;
+	vertical-align: top;
+	display: block;
+	padding: 0 0 35px;
+}
+
+.text-and-image .center-image {
+	width: 40%;
+	display: inline-block;
+
+}
+
+.center-image img {
+	width: 100%;
+
+}
+
+.button {
+	text-decoration: none;
+	color: white;
+	background: #63b1e7;
+	padding: 15px 30px;
+	border-radius: 3px;
+	font-size: 1.4rem;
+
+}
+
+.button:hover {
+	background: #ebebeb;
+	color: black;
+}
+
+form {
+	width: 40%;
+	margin: auto;
+	padding: 15px 5%;
+	text-align: center;
+	float: right;
+}
+
+form .col-md-6 {
+	width: 100%;
+	display: inline-block;
+}
+
+form input {	
+	width: 100%;
+	margin: 40px 0 0;
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	padding: 15px;
+	font-size: .9rem;
+	color: rgb(141,136,135);
+	box-sizing: border-box;
+}
+
+form .left {
+	float: left;
+}
+
+form .right {
+	float: right;
+}
+
+form .input-long {
+	width: 100%;
+}
+
+form .submit {
+	background: #63b1e7;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	width: 150px;
+	margin: 25px auto;
+	cursor: pointer;
+	-webkit-appearance: none;
+
+}
+
+form .submit:hover {
+	background: #ebebeb;
+	color: black;
+
+}
+
+.mobile-img {
+	display: none;
+}
+
+@media (min-width: 1600px) {
+	html {
+		font-size: 22px;
+	}
+
+	.header .header-text {
+		padding: 150px 2%;
+	}
+}
+
+@media (min-width: 2300px) {
+	html {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 1150px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1000px) {
+	html {
+		font-size: 22px;
+	}
+
+	.header {
+		text-align: center;
+
+	}
+
+	.header .header-text {
+		width: 100%;
+		display: block;
+		padding: 50px 2%;
+	}
+
+	.header img {
+		display: none;
+	}
+
+	.text-and-image {
+		
+	}
+
+	.text-and-image-mobile {
+		display: block;
+		padding: 0;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.text-and-image-mobile li {
+		display: inline-block;
+		width: 30%;
+		padding: 0 1%;
+		vertical-align: top;
+	}
+
+	.text-and-image-mobile .center-image {
+		width: 100%;
+		padding: 25px 0 40px 0;
+	}
+	.text-and-image-mobile .center-image img {
+	 	width: 100%;
+	
+	}
+
+	h1 {
+		padding: 50px 0 25px;
+	}
+
+	h2 {
+		padding: 50px 25px;
+	}
+}
+
+@media (max-width: 980px) {
+	html {
+		font-size: 32px;
+	}
+
+	.text-and-image li {
+		width: 100%;
+	}
+
+	h1 {
+		padding: 100px 0 50px;
+		font-size: 4rem;
+	}
+
+	h2 {
+		padding: 100px 0 100px;
+	}
+
+	.text-and-image {
+		width: 80%;
+		margin: 100px auto 0;
+		float: none;
+		display: block;
+
+	}
+
+	.h2-bottom {
+		padding: 0;
+	}
+
+	
+
+	#roommate-matching {
+		padding: 0 0 100px;
+	}
+
+	form {
+		width: 80%;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	form .col-md-6 {
+		width: 100%;
+	}
+
+	form input {
+		width: 100%;
+		margin: 40px 0 0;
+		font-size: 1.4rem;
+		padding: 25px;
+	}
+
+	form .submit {
+		font-size: 1.5rem;
+		width: 100%;
+		margin: 100px 0;
+	}
+
+	.mobile-img {
+		display: block;
+		width: 80%;
+		margin: auto;
+	}
+}
